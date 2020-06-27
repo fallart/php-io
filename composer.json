@@ -1,0 +1,12 @@
+{
+    "name": "afaller/validators-test",
+    "require": {
+        "laminas/laminas-inputfilter": "^2.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Request\\": "src/Request/src/",
+            "Input\\": "src/Input/src/"
+        }
+    }
+}
